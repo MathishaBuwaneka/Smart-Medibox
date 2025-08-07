@@ -99,15 +99,3 @@ medibox/
 - Cloud-ready design with MQTT and Node-RED integration
 
 ---
-
-## 👨‍💻 Author
-
-**John Doe**  
-University of Moratuwa  
-EN2853 – Embedded Systems and Applications
-
----
-
-## 📜 License
-
-This project is licensed for educational use under the **MIT License**.
