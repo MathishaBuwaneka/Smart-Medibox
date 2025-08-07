@@ -28,16 +28,17 @@ An upgraded Medibox system featuring **real-time control**, **environment-respon
 - **Temperature sensor (DHT11)** to monitor internal temperature
 - **Servo motor-controlled shaded sliding window** that auto-adjusts based on light and temperature conditions
 - **Real-time control equation**:
-`θ = θoffset + (180−θoffset) × I × γ × ln(ts/tu) × (T/Tmed)`
-
+  ```
+  θ = θoffset + (180−θoffset) × I × γ × ln(ts/tu) × (T/Tmed)
+  ```
 - **Node-RED Dashboard** includes:
-- Chart and gauge for visualizing light intensity
-- Sliders for adjusting:
-  - Sampling interval (ts)
-  - Sending interval (tu)
-  - Minimum servo angle (θoffset)
-  - Control factor (γ)
-  - Ideal storage temperature (Tmed)
+  - Chart and gauge for visualizing light intensity
+  - Sliders for adjusting:
+    - Sampling interval (ts)
+    - Sending interval (tu)
+    - Minimum servo angle (θoffset)
+    - Control factor (γ)
+    - Ideal storage temperature (Tmed)
 - **MQTT integration** using `test.mosquitto.org` broker
 
 ---
@@ -57,20 +58,20 @@ An upgraded Medibox system featuring **real-time control**, **environment-respon
 
 ## 📁 Repository Structure
 
+```
 medibox/
 ├── v1.0/
-│ ├── medibox_alarm_system.ino
-│ └── README_v1.md
+│   ├── medibox_alarm_system.ino
+│   └── README_v1.md
 ├── v2.0/
-│ ├── medibox_smart_storage.ino
-│ ├── node_red_flow.json
-│ └── README_v2.md
+│   ├── medibox_smart_storage.ino
+│   ├── node_red_flow.json
+│   └── README_v2.md
 ├── media/
-│ ├── demo_video.mp4
-│ └── screenshots/
+│   ├── demo_video.mp4
+│   └── screenshots/
 └── README.md
-
-
+```
 
 ---
 
@@ -98,3 +99,15 @@ medibox/
 - Cloud-ready design with MQTT and Node-RED integration
 
 ---
+
+## 👨‍💻 Author
+
+**John Doe**  
+University of Moratuwa  
+EN2853 – Embedded Systems and Applications
+
+---
+
+## 📜 License
+
+This project is licensed for educational use under the **MIT License**.
