@@ -57,7 +57,7 @@ An upgraded Medibox system featuring **real-time control**, **environment-respon
 
 ## 📁 Repository Structure
 
-`medibox/
+medibox/
 ├── v1.0/
 │ ├── medibox_alarm_system.ino
 │ └── README_v1.md
@@ -68,7 +68,8 @@ An upgraded Medibox system featuring **real-time control**, **environment-respon
 ├── media/
 │ ├── demo_video.mp4
 │ └── screenshots/
-└── README.md`
+└── README.md
+
 
 
 ---
